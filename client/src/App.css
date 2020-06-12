@@ -1,0 +1,129 @@
+.background-picture {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 80vh;
+  width: 80vw;
+  opacity: .6;
+  background-image: url("./assets/IMG-5672.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  position: absolute;
+  z-index: -1;
+}
+
+.framework {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  grid-template-rows: 105px 1fr 50px;
+  gap: 0px;
+}
+
+.sidebar {
+  grid-column: 1;
+  grid-row: 1 / -1;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.social-nav {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.social-nav-list {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  bottom: 10%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-nav-item {
+  text-decoration: none;
+  color: whitesmoke;
+  height: 32px;
+  width: 32px;
+}
+
+.social-nav-item:hover {
+  cursor: pointer;
+}
+
+.social-logo {
+  max-height: 100%;
+  max-width: 100%
+}
+
+.headerbar {
+  margin: 0;
+  padding: 0;
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+
+.logo-menu {
+  display: inline-block;
+  height: 75px;
+  width: 50px;
+  margin-top: 15px;
+  margin-left: 15px;
+  /*background-image: url("./assets/crest.png");*/
+  background-image: url("./assets/crest.png");
+  /*background-color: brown;*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.site-nav{
+  float: right;
+  margin: 0;
+  padding: 0;
+  margin-right: 10%;
+  height: 100%;
+  width: 40%;
+}
+
+.site-nav-list {
+  height: 100%;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-nav-list-item {
+  margin: 10px;
+}
+
+.site-nav-link {
+  text-decoration: none;
+  color: whitesmoke
+}
+
+.main {
+  grid-column: 2;
+  grid-row: 2 / -1;
+}
+
+.quote-block {
+  margin-top: 20%;
+  margin-left: 20%;
+  color: whitesmoke;
+  font-size: large;
+}
