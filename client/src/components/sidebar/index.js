@@ -1,6 +1,6 @@
 import React from 'react';
-import SocialNav from './socialnav';
-import '../App.css';
+import SocialNav from '../socialnav';
+import '../../App.css';
 
 function Sidebar() {
   return (

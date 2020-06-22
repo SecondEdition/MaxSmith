@@ -1,6 +1,6 @@
 import React from 'react';
-import SiteNav from './sitenav';
-import '../App.css';
+import SiteNav from '../sitenav';
+import '../../App.css';
 
 function Header() {
   return (

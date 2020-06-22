@@ -1,5 +1,7 @@
 import React from 'react';
-import '../App.css';
+import '../../App.css';
+
+
 
 function SiteNav() {
   return (
@@ -18,7 +20,11 @@ function SiteNav() {
             <li className="site-nav-list-item">
                 <a 
                     className="site-nav-link"
-                    href="#About">
+                    href="#About"
+                    onClick={e => {
+                    this.showModal();
+                    }}
+                    >
                 About
                 </a>
             </li>

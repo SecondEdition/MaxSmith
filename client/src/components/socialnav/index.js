@@ -1,9 +1,9 @@
 import React from 'react';
 
-import linkdnlogo from '../assets/LI-bnw-simple.png';
-import instaglogo from '../assets/glyph-logo_May2016_white.png';
-import githublogo from '../assets/GitHub-Mark-Light-32px.png';
-import '../App.css';
+import linkdnlogo from '../../assets/LI-bnw-simple.png';
+import instaglogo from '../../assets/glyph-logo_May2016_white.png';
+import githublogo from '../../assets/GitHub-Mark-Light-32px.png';
+import '../../App.css';
 
 function SocialNav() {
   return (
